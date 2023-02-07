@@ -1,0 +1,21 @@
+{
+  "name": "evondev-tailwind-theme",
+  "displayName": "Evondev Tailwind Theme",
+  "description": "Tailwind theme base on colour palettes from tailwindcss.com/",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Evondev Tailwind Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Evondev Tailwind Theme-color-theme.json"
+      }
+    ]
+  }
+}
