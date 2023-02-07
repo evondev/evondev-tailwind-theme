@@ -71,7 +71,8 @@
     "peekViewTitleDescription.foreground": "#f8fafc",
     "peekView.border": "#7dd3fc",
     "peekViewResult.lineForeground": "#f8fafc",
-    "checkbox.border": "#6272a4"
+    "checkbox.border": "#6272a4",
+    "tab.lastPinnedBorder": "#141e37"
   },
   "tokenColors": [
     {
@@ -515,14 +516,14 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#ff79c6"
       }
     },
     {
       "name": "Markdown - Markup Raw Inline",
       "scope": ["text.html.markdown markup.inline.raw.markdown"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#ff79c6"
       }
     },
     {
@@ -531,7 +532,7 @@
         "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
       ],
       "settings": {
-        "foreground": "#65737E"
+        "foreground": "#ff79c6"
       }
     },
     {
@@ -542,7 +543,8 @@
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#ff79c6"
+        "foreground": "#ff79c6",
+        "fontStyle": "bold"
       }
     },
     {
@@ -550,7 +552,7 @@
       "scope": ["markup.italic"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#f07178"
+        "foreground": "#20e3b2"
       }
     },
     {
@@ -558,7 +560,7 @@
       "scope": ["markup.bold", "markup.bold string"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#f07178"
+        "foreground": "#20e3b2"
       }
     },
     {
@@ -573,7 +575,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#f07178"
+        "foreground": "#20e3b2"
       }
     },
     {
