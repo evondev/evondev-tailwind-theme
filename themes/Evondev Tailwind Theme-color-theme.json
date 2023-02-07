@@ -56,7 +56,13 @@
     "terminal.ansiMagenta": "#FF79C6",
     "terminal.ansiWhite": "#f8fafc",
     "editor.findMatchHighlightBackground": "#ffffff18",
-    "editorBracketMatch.background": "#ffffff18"
+    "editorBracketMatch.background": "#ffffff18",
+    "peekViewEditor.background": "#141e37",
+    "peekViewResult.background": "#141e37",
+    "peekViewTitleLabel.foreground": "#7dd3fc",
+    "peekViewTitleDescription.foreground": "#f8fafc",
+    "peekView.border": "#7dd3fc",
+    "peekViewResult.lineForeground": "#f8fafc"
   },
   "tokenColors": [
     {
@@ -173,16 +179,16 @@
       "scope": [
         "variable.other.property.tsx",
         "variable.other.property.js",
-        "variable.other.property.jsx"
+        "variable.other.property.jsx",
+        "constant.language",
+        "constant.numeric",
+        "variable.other.constant.object.ts",
+        "variable.other.constant.object.tsx",
+        "variable.other.constant.object.js",
+        "variable.other.constant.object.jsx"
       ],
       "settings": {
         "foreground": "#ff79c6"
-      }
-    },
-    {
-      "scope": ["variable.other.constant.object.tsx"],
-      "settings": {
-        "foreground": "#f8fafc"
       }
     },
     {
@@ -195,8 +201,6 @@
     {
       "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
       "scope": [
-        "constant.numeric",
-        "constant.language",
         "support.constant",
         "constant.character",
         "constant.escape",
@@ -273,7 +277,10 @@
         "source.scss support.type.property-name",
         "source.less support.type.property-name",
         "source.stylus support.type.property-name",
-        "source.postcss support.type.property-name"
+        "source.postcss support.type.property-name",
+        "support.class.component.js",
+        "support.class.component.jsx",
+        "support.class.component.tsx"
       ],
       "settings": {
         "foreground": "#7dd3fc"
