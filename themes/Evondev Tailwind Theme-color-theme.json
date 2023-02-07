@@ -5,7 +5,7 @@
     "titleBar.activeBackground": "#141e37",
     "editorSuggestWidget.background": "#10182D",
     "editorSuggestWidget.border": "#17223f",
-    "editorSuggestWidget.selectedBackground": "#0f172a",
+    "editorSuggestWidget.selectedBackground": "#ffffff18",
     "selection.background": "#ffffff18",
     "list.focusBackground": "#44475a75",
     "list.hoverBackground": "#44475a75",
@@ -17,12 +17,12 @@
     "panel.background": "#0f172a",
     "activityBar.activeBackground": "#17223f49",
     "activityBar.inactiveForeground": "#64748b",
-    "activityBar.activeBorder": "#20e3b2",
+    "activityBar.activeBorder": "#7dd3fc",
     "activityBar.background": "#10182D",
     "tab.activeBackground": "#0f172a",
     "tab.inactiveBackground": "#141e37",
     "tab.border": "#141e37",
-    "tab.activeBorderTop": "#20e3b2",
+    "tab.activeBorderTop": "#7dd3fc",
     "editorGroupHeader.tabsBackground": "#141e37",
     "statusBar.background": "#141e37",
     "sideBarTitle.foreground": "#fff",
@@ -31,7 +31,7 @@
     "editorLineNumber.activeForeground": "#f8fafc",
     "activityBarBadge.background": "#FF79C6",
     "panelTitle.inactiveForeground": "#64748B",
-    "panelTitle.activeBorder": "#20e3b2",
+    "panelTitle.activeBorder": "#7dd3fc",
     "editor.selectionBackground": "#ffffff18",
     "breadcrumb.foreground": "#64748B",
     "tab.inactiveForeground": "#64748B",
@@ -39,11 +39,13 @@
     "sideBar.border": "#17223f",
     "activityBar.border": "#17223f",
     "quickInput.background": "#0f172a",
-    "quickInputList.focusBackground": "#141e37",
+    "quickInputList.focusBackground": "#ffffff18",
+    "editorWidget.background": "#141e37",
+    "editorWidget.border": "#ffffff18",
     "input.background": "#0f172a",
     "input.border": "#17223f",
     "input.placeholderForeground": "#64748B",
-    "focusBorder": "#64748B",
+    "focusBorder": "#ffffff18",
     "terminal.ansiBrightCyan": "#7dd3fc",
     "terminal.ansiBrightGreen": "#20E3B2",
     "terminal.ansiBrightMagenta": "#FF79C6",
@@ -151,7 +153,7 @@
         "entity.name.function.tsx"
       ],
       "settings": {
-        "foreground": "#f472b6"
+        "foreground": "#20e3b2"
       }
     },
     {
@@ -393,7 +395,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -402,7 +404,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -411,7 +413,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -420,7 +422,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -438,7 +440,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -447,7 +449,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -456,7 +458,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -465,7 +467,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#7dd3fc"
       }
     },
     {

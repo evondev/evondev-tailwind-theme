@@ -2,7 +2,7 @@
   "name": "evondev-tailwind-theme",
   "displayName": "Evondev Tailwind Theme",
   "description": "Inspiration from the homepage of tailwindcss.com",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "evondev",
   "repository": {
     "type": "git",
