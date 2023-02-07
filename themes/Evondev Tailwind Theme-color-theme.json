@@ -2,23 +2,37 @@
   "name": "Evondev Tailwind Theme",
   "type": "dark",
   "colors": {
-    "titleBar.activeBackground": "#10182D",
+    "titleBar.activeBackground": "#1e293b",
+    "editorSuggestWidget.background": "#10182D",
+    "editorSuggestWidget.border": "#17223f",
+    "editorSuggestWidget.selectedBackground": "#0f172a",
+    "selection.background": "#ffffff18",
+    "list.focusBackground": "#44475a75",
+    "list.hoverBackground": "#44475a75",
+    "list.inactiveSelectionBackground": "#44475a75",
     "editor.background": "#0f172a",
+    "editor.foreground": "#eeffff",
     "sideBar.background": "#0f172a",
     "panel.border": "#17223f",
     "panel.background": "#0f172a",
     "activityBar.activeBackground": "#10182D",
+    "activityBar.inactiveForeground": "#64748b",
+    "activityBar.activeBorder": "#20e3b2",
     "activityBar.background": "#10182D",
-    "tab.inactiveBackground": "#10182D",
-    "statusBar.background": "#10182D",
-    "editor.foreground": "#eeffff",
-    "editorGroupHeader.tabsBackground": "#10182D",
-    "tab.border": "#10182D",
-    "activityBarBadge.background": "#f472b6",
+    "tab.activeBackground": "#0f172a",
+    "tab.inactiveBackground": "#1e293b",
+    "tab.border": "#1e293b",
+    "tab.activeBorderTop": "#20e3b2",
+    "editorGroupHeader.tabsBackground": "#1e293b",
+    "statusBar.background": "#1e293b",
     "sideBarTitle.foreground": "#fff",
-    "sideBarSectionHeader.background": "#10182D",
+    "sideBarSectionHeader.background": "#1e293b",
     "editorLineNumber.foreground": "#64748B",
-    "editorLineNumber.activeForeground": "#f8fafc"
+    "editorLineNumber.activeForeground": "#f8fafc",
+    "activityBarBadge.background": "#FF79C6",
+    "panelTitle.inactiveForeground": "#64748B",
+    "panelTitle.activeBorder": "#20e3b2",
+    "editor.selectionBackground": "#ffffff18"
   },
   "tokenColors": [
     {
@@ -26,7 +40,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#94a3b8"
+        "foreground": "#6272a4"
       }
     },
     {
@@ -107,7 +121,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#99f6e4"
+        "foreground": "#20e3b2"
       }
     },
     {
@@ -161,7 +175,7 @@
         "keyword.other.unit.percentage"
       ],
       "settings": {
-        "foreground": "#99f6e4"
+        "foreground": "#20e3b2"
       }
     },
     {
@@ -176,7 +190,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#7dd3fc"
+        "foreground": "#2cccff"
       }
     },
     {
@@ -219,7 +233,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#7dd3fc"
+        "foreground": "#2cccff"
       }
     },
     {
