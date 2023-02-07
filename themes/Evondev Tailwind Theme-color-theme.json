@@ -47,6 +47,10 @@
     "input.border": "#17223f",
     "input.placeholderForeground": "#64748B",
     "focusBorder": "#ffffff18",
+    "terminal.ansiBlack": "#21222c",
+    "terminal.ansiBlue": "#bd93f9",
+    "terminal.ansiBrightBlack": "#8d92ff",
+    "terminal.ansiBrightBlue": "#bd93f9",
     "terminal.ansiBrightCyan": "#7dd3fc",
     "terminal.ansiBrightGreen": "#20E3B2",
     "terminal.ansiBrightMagenta": "#FF79C6",
@@ -55,6 +59,10 @@
     "terminal.ansiGreen": "#20e3b2",
     "terminal.ansiMagenta": "#FF79C6",
     "terminal.ansiWhite": "#f8fafc",
+    "terminal.ansiRed": "#ff5555",
+    "terminal.ansiYellow": "#fde181",
+    "terminal.background": "#191a2e",
+    "terminal.foreground": "#f8f8f2",
     "editor.findMatchHighlightBackground": "#ffffff18",
     "editorBracketMatch.background": "#ffffff18",
     "peekViewEditor.background": "#141e37",
@@ -62,7 +70,8 @@
     "peekViewTitleLabel.foreground": "#7dd3fc",
     "peekViewTitleDescription.foreground": "#f8fafc",
     "peekView.border": "#7dd3fc",
-    "peekViewResult.lineForeground": "#f8fafc"
+    "peekViewResult.lineForeground": "#f8fafc",
+    "checkbox.border": "#6272a4"
   },
   "tokenColors": [
     {
