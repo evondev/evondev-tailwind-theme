@@ -1,6 +1,7 @@
 {
   "name": "Evondev Tailwind Theme",
   "type": "dark",
+  "semanticHighlighting": true,
   "colors": {
     "titleBar.activeBackground": "#141e37",
     "editorSuggestWidget.background": "#10182D",
@@ -53,7 +54,9 @@
     "terminal.ansiCyan": "#7dd3fc",
     "terminal.ansiGreen": "#20e3b2",
     "terminal.ansiMagenta": "#FF79C6",
-    "terminal.ansiWhite": "#f8fafc"
+    "terminal.ansiWhite": "#f8fafc",
+    "editor.findMatchHighlightBackground": "#ffffff18",
+    "editorBracketMatch.background": "#ffffff18"
   },
   "tokenColors": [
     {
@@ -125,6 +128,9 @@
       "name": "Tag",
       "scope": [
         "entity.name.tag",
+        "entity.name.type",
+        "entity.name.type.tsx",
+        "entity.name.type.ts",
         "meta.tag.sgml",
         "markup.deleted.git_gutter"
       ],
@@ -159,6 +165,22 @@
     {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
+      "settings": {
+        "foreground": "#f8fafc"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.property.tsx",
+        "variable.other.property.js",
+        "variable.other.property.jsx"
+      ],
+      "settings": {
+        "foreground": "#ff79c6"
+      }
+    },
+    {
+      "scope": ["variable.other.constant.object.tsx"],
       "settings": {
         "foreground": "#f8fafc"
       }
@@ -504,7 +526,7 @@
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#ff79c6"
       }
     },
     {
