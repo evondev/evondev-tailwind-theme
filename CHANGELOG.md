@@ -1,9 +1,5 @@
 # Change Log
 
-All notable changes to the "evondev-tailwind-theme" extension will be documented in this file.
+## v0.0.12
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- Fix colors of markdown

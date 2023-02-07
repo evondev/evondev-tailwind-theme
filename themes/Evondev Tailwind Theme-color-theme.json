@@ -71,7 +71,8 @@
     "peekView.border": "#7dd3fc",
     "peekViewResult.lineForeground": "#f8fafc",
     "checkbox.border": "#6272a4",
-    "tab.lastPinnedBorder": "#141e37"
+    "tab.lastPinnedBorder": "#141e37",
+    "editorCursor.foreground": "#7dd3fc"
   },
   "tokenColors": [
     {
@@ -204,7 +205,7 @@
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff79c6"
       }
     },
     {
@@ -215,7 +216,8 @@
         "constant.escape",
         "variable.parameter",
         "keyword.other.unit",
-        "keyword.other"
+        "keyword.other",
+        "meta.paragraph.markdown"
       ],
       "settings": {
         "foreground": "#f8fafc"
@@ -511,7 +513,7 @@
     {
       "name": "Markdown - Plain",
       "scope": [
-        "text.html.markdown",
+        "markup.inline.raw.string.markdown",
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
@@ -582,7 +584,7 @@
       "scope": ["markup.underline"],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#F78C6C"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -603,7 +605,7 @@
       "name": "Markdown - Link",
       "scope": ["string.other.link.title.markdown"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -665,6 +667,12 @@
       "settings": {
         "fontStyle": "bold",
         "foreground": "#65737E"
+      }
+    },
+    {
+      "scope": ["markup.heading.markdown"],
+      "settings": {
+        "fontStyle": "bold"
       }
     },
     {
