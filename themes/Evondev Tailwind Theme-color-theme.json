@@ -2,7 +2,7 @@
   "name": "Evondev Tailwind Theme",
   "type": "dark",
   "colors": {
-    "titleBar.activeBackground": "#1e293b",
+    "titleBar.activeBackground": "#141e37",
     "editorSuggestWidget.background": "#10182D",
     "editorSuggestWidget.border": "#17223f",
     "editorSuggestWidget.selectedBackground": "#0f172a",
@@ -20,19 +20,21 @@
     "activityBar.activeBorder": "#20e3b2",
     "activityBar.background": "#10182D",
     "tab.activeBackground": "#0f172a",
-    "tab.inactiveBackground": "#1e293b",
-    "tab.border": "#1e293b",
+    "tab.inactiveBackground": "#141e37",
+    "tab.border": "#141e37",
     "tab.activeBorderTop": "#20e3b2",
-    "editorGroupHeader.tabsBackground": "#1e293b",
-    "statusBar.background": "#1e293b",
+    "editorGroupHeader.tabsBackground": "#141e37",
+    "statusBar.background": "#141e37",
     "sideBarTitle.foreground": "#fff",
-    "sideBarSectionHeader.background": "#1e293b",
+    "sideBarSectionHeader.background": "#141e37",
     "editorLineNumber.foreground": "#64748B",
     "editorLineNumber.activeForeground": "#f8fafc",
     "activityBarBadge.background": "#FF79C6",
     "panelTitle.inactiveForeground": "#64748B",
     "panelTitle.activeBorder": "#20e3b2",
-    "editor.selectionBackground": "#ffffff18"
+    "editor.selectionBackground": "#ffffff18",
+    "breadcrumb.foreground": "#64748B",
+    "tab.inactiveForeground": "#64748B"
   },
   "tokenColors": [
     {
@@ -190,7 +192,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#2cccff"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -233,7 +235,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#2cccff"
+        "foreground": "#7dd3fc"
       }
     },
     {

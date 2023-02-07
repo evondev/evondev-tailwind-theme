@@ -1,8 +1,8 @@
 {
   "name": "evondev-tailwind-theme",
   "displayName": "Evondev Tailwind Theme",
-  "description": "Tailwind theme base on colour palettes from tailwindcss.com/",
-  "version": "0.0.1",
+  "description": "Inspiration from the homepage of tailwindcss.com",
+  "version": "0.0.2",
   "publisher": "evondev",
   "repository": {
     "type": "git",
@@ -10,7 +10,7 @@
   },
   "icon": "icon.png",
   "engines": {
-    "vscode": "^1.75.0"
+    "vscode": "^1.20.0"
   },
   "categories": [
     "Themes"
