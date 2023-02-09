@@ -159,7 +159,7 @@
       }
     },
     {
-      "scope": ["keyword.control"],
+      "scope": ["keyword.control", "keyword.control.at-rule.layer.tailwind"],
       "settings": {
         "foreground": "#94a3b8"
       }
@@ -172,7 +172,9 @@
         "entity.name.type.tsx",
         "entity.name.type.ts",
         "meta.tag.sgml",
-        "markup.deleted.git_gutter"
+        "markup.deleted.git_gutter",
+        "variable.other.readwrite.js",
+        "punctuation.separator.key-value.html"
       ],
       "settings": {
         "foreground": "#ff79c6"
@@ -185,7 +187,9 @@
         "meta.function-call",
         "variable.function",
         "support.function",
-        "keyword.other.special-method"
+        "keyword.other.special-method",
+        "keyword.control.at-rule.apply.tailwind",
+        "punctuation.definition.keyword.css"
       ],
       "settings": {
         "foreground": "#20e3b2"
@@ -262,7 +266,7 @@
         "string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#20e3b2"
+        "foreground": "#e39bf7"
       }
     },
     {
