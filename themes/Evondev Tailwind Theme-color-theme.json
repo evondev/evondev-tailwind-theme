@@ -80,7 +80,10 @@
     "checkbox.border": "#6272a4",
     "tab.lastPinnedBorder": "#191a2e",
     "editorCursor.foreground": "#f8f8f2",
-    "list.activeSelectionBackground": "#1E1F35"
+    "list.activeSelectionBackground": "#1E1F35",
+    "sideBar.foreground": "#f8fafc",
+    "quickInput.foreground": "#f8fafc",
+    "titleBar.activeForeground": "#f8fafc"
   },
   "tokenColors": [
     {
@@ -130,11 +133,7 @@
       "name": "Operator, Misc",
       "scope": [
         "punctuation",
-        "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
-        "punctuation.definition.tag.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution"
@@ -174,7 +173,10 @@
         "meta.tag.sgml",
         "markup.deleted.git_gutter",
         "variable.other.readwrite.js",
-        "punctuation.separator.key-value.html"
+        "punctuation.separator.key-value.html",
+        "variable.other.constant.object.js",
+        "punctuation.definition.entity.css",
+        "punctuation.definition.entity.scss"
       ],
       "settings": {
         "foreground": "#ff79c6"
@@ -189,7 +191,8 @@
         "support.function",
         "keyword.other.special-method",
         "keyword.control.at-rule.apply.tailwind",
-        "punctuation.definition.keyword.css"
+        "punctuation.definition.keyword.css",
+        "entity.other.attribute-name.class.pug"
       ],
       "settings": {
         "foreground": "#20e3b2"
@@ -224,10 +227,9 @@
         "keyword.operator.logical.tsx",
         "keyword.operator.assignment.tsx",
         "storage.type.function.arrow.tsx",
-        "punctuation.definition.tag.begin.tsx",
-        "punctuation.definition.tag.end.tsx",
         "storage.type.tsx",
-        "storage.type.ts"
+        "storage.type.ts",
+        "punctuation.definition.tag"
       ],
       "settings": {
         "foreground": "#ff79c6"
