@@ -229,7 +229,8 @@
         "storage.type.function.arrow.tsx",
         "storage.type.tsx",
         "storage.type.ts",
-        "punctuation.definition.tag"
+        "punctuation.definition.tag",
+        "keyword.operator.spread.tsx"
       ],
       "settings": {
         "foreground": "#ff79c6"
@@ -268,7 +269,7 @@
         "string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#e39bf7"
+        "foreground": "#ffb86c"
       }
     },
     {
