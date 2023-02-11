@@ -80,7 +80,7 @@
     "checkbox.border": "#6272a4",
     "tab.lastPinnedBorder": "#191a2e",
     "editorCursor.foreground": "#f8f8f2",
-    "list.activeSelectionBackground": "#1E1F35",
+    "list.activeSelectionBackground": "#ffffff18",
     "sideBar.foreground": "#f8fafc",
     "quickInput.foreground": "#f8fafc",
     "titleBar.activeForeground": "#f8fafc",
