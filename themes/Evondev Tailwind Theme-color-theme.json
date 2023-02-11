@@ -83,7 +83,8 @@
     "list.activeSelectionBackground": "#1E1F35",
     "sideBar.foreground": "#f8fafc",
     "quickInput.foreground": "#f8fafc",
-    "titleBar.activeForeground": "#f8fafc"
+    "titleBar.activeForeground": "#f8fafc",
+    "input.foreground": "#f8fafc"
   },
   "tokenColors": [
     {
@@ -158,9 +159,20 @@
       }
     },
     {
-      "scope": ["keyword.control", "keyword.control.at-rule.layer.tailwind"],
+      "scope": [
+        "keyword.control",
+        "keyword.control.at-rule.layer.tailwind",
+        "keyword.operator.comparison",
+        "keyword.operator.ternary",
+        "keyword.operator.logical",
+        "keyword.operator.spread",
+        "keyword.operator.assignment",
+        "keyword.operator.optional",
+        "storage.type.function.arrow",
+        "keyword.operator.relational"
+      ],
       "settings": {
-        "foreground": "#94a3b8"
+        "foreground": "#c0cad5"
       }
     },
     {
@@ -220,17 +232,11 @@
       "scope": [
         "constant.language",
         "constant.numeric",
-        "keyword.operator.comparison.tsx",
-        "keyword.operator.ternary.tsx",
         "punctuation.accessor.optional.tsx",
         "punctuation.accessor.tsx",
-        "keyword.operator.logical.tsx",
-        "keyword.operator.assignment.tsx",
-        "storage.type.function.arrow.tsx",
         "storage.type.tsx",
         "storage.type.ts",
-        "punctuation.definition.tag",
-        "keyword.operator.spread.tsx"
+        "punctuation.definition.tag"
       ],
       "settings": {
         "foreground": "#ff79c6"
@@ -252,7 +258,8 @@
         "keyword.other.unit",
         "keyword.other",
         "meta.paragraph.markdown",
-        "variable.other.constant.object.tsx"
+        "variable.other.constant.object.tsx",
+        "storage.type.js"
       ],
       "settings": {
         "foreground": "#f8fafc"
@@ -269,7 +276,7 @@
         "string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#ffb86c"
+        "foreground": "#f8fafc"
       }
     },
     {
@@ -299,23 +306,11 @@
         "support.other.namespace.php",
         "markup.changed.git_gutter",
         "support.type.sys-types",
-        "keyword.operator.optional.tsx"
+        "storage.type.import.include.pug",
+        "storage.type.function.pug"
       ],
       "settings": {
         "foreground": "#ff79c6"
-      }
-    },
-    // {
-    //   "name": "Entity Types",
-    //   "scope": ["support.type"],
-    //   "settings": {
-    //     "foreground": "#B2CCD6"
-    //   }
-    // },
-    {
-      "scope": ["keyword.operator.comparison", "keyword.operator.assignment"],
-      "settings": {
-        "foreground": "#f8fafc"
       }
     },
     {
