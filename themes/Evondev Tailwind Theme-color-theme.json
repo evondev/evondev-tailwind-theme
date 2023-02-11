@@ -84,7 +84,9 @@
     "sideBar.foreground": "#f8fafc",
     "quickInput.foreground": "#f8fafc",
     "titleBar.activeForeground": "#f8fafc",
-    "input.foreground": "#f8fafc"
+    "input.foreground": "#f8fafc",
+    "editorGroup.border": "#21293d",
+    "editorGroupHeader.border": "#21293d"
   },
   "tokenColors": [
     {
@@ -169,7 +171,8 @@
         "keyword.operator.assignment",
         "keyword.operator.optional",
         "storage.type.function.arrow",
-        "keyword.operator.relational"
+        "keyword.operator.relational",
+        "entity.other.attribute-name.class.pug"
       ],
       "settings": {
         "foreground": "#c0cad5"
@@ -188,7 +191,8 @@
         "punctuation.separator.key-value.html",
         "variable.other.constant.object.js",
         "punctuation.definition.entity.css",
-        "punctuation.definition.entity.scss"
+        "punctuation.definition.entity.scss",
+        "keyword.operator.in.js"
       ],
       "settings": {
         "foreground": "#ff79c6"
@@ -203,8 +207,7 @@
         "support.function",
         "keyword.other.special-method",
         "keyword.control.at-rule.apply.tailwind",
-        "punctuation.definition.keyword.css",
-        "entity.other.attribute-name.class.pug"
+        "punctuation.definition.keyword.css"
       ],
       "settings": {
         "foreground": "#20e3b2"
