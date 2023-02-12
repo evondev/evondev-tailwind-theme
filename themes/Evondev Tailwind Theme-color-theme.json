@@ -276,7 +276,8 @@
         "keyword.other.unit.vh",
         "keyword.other.unit.vh",
         "keyword.other.unit.percentage",
-        "string constant.other.placeholder"
+        "string constant.other.placeholder",
+        "string.unquoted.js"
       ],
       "settings": {
         "foreground": "#f8fafc"
