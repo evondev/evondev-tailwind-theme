@@ -2,7 +2,7 @@
   "name": "evondev-tailwind-theme",
   "displayName": "Evondev Tailwind Theme",
   "description": "Inspiration from the homepage of tailwindcss.com",
-  "version": "0.0.27",
+  "version": "0.0.29",
   "publisher": "evondev",
   "repository": {
     "type": "git",
@@ -20,7 +20,12 @@
       {
         "label": "Evondev Tailwind Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Evondev Tailwind Theme-color-theme.json"
+        "path": "./themes/Evondev-Tailwind-Theme.json"
+      },
+      {
+        "label": "Evondev Tailwind Theme Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Evondev-Tailwind-Theme-Italic.json"
       }
     ]
   }

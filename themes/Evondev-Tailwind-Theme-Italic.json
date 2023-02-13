@@ -374,7 +374,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#cbd5e1"
+        "foreground": "#f8fafc"
       }
     },
     {
@@ -393,6 +393,20 @@
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
         "foreground": "#ff79c6"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.ts",
+        "entity.other.attribute-name.tsx",
+        "entity.other.attribute-name.tag.pug"
+      ],
+      "settings": {
+        "foreground": "#f8fafd",
+        "fontStyle": "italic"
       }
     },
     {
