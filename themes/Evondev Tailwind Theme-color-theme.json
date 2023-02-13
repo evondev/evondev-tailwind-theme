@@ -205,9 +205,7 @@
         "meta.function-call",
         "variable.function",
         "support.function",
-        "keyword.other.special-method",
-        "keyword.control.at-rule.apply.tailwind",
-        "punctuation.definition.keyword.css"
+        "keyword.other.special-method"
       ],
       "settings": {
         "foreground": "#20e3b2"
@@ -262,7 +260,9 @@
         "keyword.other",
         "meta.paragraph.markdown",
         "variable.other.constant.object.tsx",
-        "storage.type.js"
+        "storage.type.js",
+        "keyword.control.at-rule.apply.tailwind",
+        "punctuation.definition.keyword.css"
       ],
       "settings": {
         "foreground": "#f8fafc"
@@ -341,7 +341,7 @@
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "#f472b6"
+        "foreground": "#ff79c6"
       }
     },
     {
@@ -392,7 +392,7 @@
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        "foreground": "#f472b6"
+        "foreground": "#ff79c6"
       }
     },
     {
@@ -406,7 +406,7 @@
       "name": "Inserted",
       "scope": ["markup.inserted"],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#20e3b2"
       }
     },
     {
