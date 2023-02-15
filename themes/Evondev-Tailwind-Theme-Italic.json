@@ -603,7 +603,7 @@
       "scope": ["markup.italic"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#20e3b2"
+        "foreground": "#eac394"
       }
     },
     {
@@ -611,7 +611,7 @@
       "scope": ["markup.bold", "markup.bold string"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#20e3b2"
+        "foreground": "#e39bf7"
       }
     },
     {
