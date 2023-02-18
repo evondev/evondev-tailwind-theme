@@ -142,7 +142,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#64748b"
+        "foreground": "#C0CAD4"
       }
     },
     {
@@ -192,7 +192,8 @@
         "variable.other.constant.object.js",
         "punctuation.definition.entity.css",
         "punctuation.definition.entity.scss",
-        "keyword.operator.in.js"
+        "keyword.operator.in.js",
+        "punctuation.definition.raw.markdown"
       ],
       "settings": {
         "foreground": "#ff79c6"
@@ -327,7 +328,10 @@
         "source.stylus support.type.property-name",
         "source.postcss support.type.property-name",
         "support.class.component.js",
-        "support.class.component.jsx"
+        "support.class.component.jsx",
+        "support.class.component.tsx",
+        "support.class.component.open.jsx",
+        "support.class.component.close.jsx"
       ],
       "settings": {
         "foreground": "#7dd3fc"
@@ -586,7 +590,7 @@
     },
     {
       "name": "Markup - Italic",
-      "scope": ["markup.italic"],
+      "scope": ["markup.italic", "punctuation.definition.italic.markdown"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#eac394"
@@ -597,7 +601,7 @@
       "scope": ["markup.bold", "markup.bold string"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#e39bf7"
+        "foreground": "#20e3b2"
       }
     },
     {
